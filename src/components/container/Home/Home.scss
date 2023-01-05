@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+    .profile {
+        width: 200px;
+        height: 200px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 8%;
+            object-fit: cover;
+        }
+    }
+    .profile_text {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+
+        p {
+            font-size: 2rem;
+            text-transform: none;
+
+        }
+
+        h3 {
+            color: #fff;
+            font-size: 5rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            font-family: 'Poppins', sans-serif;
+            font-style: light;
+            @media screen and (max-width: 500px) {
+            font-size: 2rem;
+
+            }
+            span {
+                color: #E1094A;
+                text-transform: uppercase;
+            }
+        }
+        .job {
+            color: #fff;
+            opacity: 0.5;
+            font-size: 0.85rem;
+        }
+        .text {
+            margin-top: 2rem;
+            color: #fff;
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1.3;
+
+            @media screen and (max-width: 800px) {
+                font-size: 1rem;
+                 margin-top: 2rem;
+            }
+            @media screen and (max-width: 530px) {
+                font-size: 1rem;
+            }
+        }
+                a {
+                    margin-top: 3rem;
+                    text-decoration: none;
+                    color: #000;
+                    background: #fff;
+                    padding: 0.65rem 1rem;
+                    border-radius: 10px;
+                    font-size: 0.85rem;
+                    text-transform: capitalize;
+                }
+        div{
+            position: absolute;
+            background: rgba(255,255,255,0.15);
+            color: #fff;
+            padding: 0.35rem 1rem;
+            border-radius: 25px;
+            font-size: 0.85rem;
+            cursor: pointer;
+        }
+        @media screen  and (max-width: 800px) {
+            div {
+                display: none;
+            }
+        }
+        // .web {
+        //     right: -1rem;
+        //     top: 2rem;
+        // }
+        // .ui {
+        //     top: 2rem;
+        //     left: 2rem;
+        // }
+        // .freelance {
+        //     bottom: 2rem;
+        //     left: 0;
+        // }
+    }
+
+}
