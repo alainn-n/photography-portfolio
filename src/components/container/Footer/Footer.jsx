@@ -15,9 +15,9 @@ const Footer = () => {
       className='footer'
     >
       <div className="copyright">
-        <p>Made with <span>♥</span> by <span>Alain Christian</span> Copyright&copy;2022 All rights reserved.</p>
+        <p>Made with <span>♥</span> by <span>Alain Christian</span> Copyright&copy;2024 All rights reserved.</p>
       </div>
-      <div className="followMe">
+      {/* <div className="followMe">
         <h4>Follow Me</h4>
         <div className="stick"></div>
         <div className="social_icons">
@@ -29,7 +29,7 @@ const Footer = () => {
             )
           })}
           </div>
-      </div>
+      </div> */}
     </motion.div>
   )
 }

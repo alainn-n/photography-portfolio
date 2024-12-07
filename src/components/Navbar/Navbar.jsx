@@ -65,7 +65,7 @@ const Navbar = () => {
               <div className="social_icons" >
               <Router>
               <div>
-                <a href="https://wa.me/5541995860145" target="_blank" rel="noreferrer">
+                <a href="https://wa.me/5541988960127" target="_blank" rel="noreferrer">
                   <BsWhatsapp />
                 </a>
               </div>

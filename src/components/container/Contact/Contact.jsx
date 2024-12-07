@@ -24,14 +24,14 @@ const Contact = () => {
           whileInView={{ x: [-150,0], opacity: 1 }}
           transition={{duration: 1}}
           className='contact_left_container'>
-          <h3>Mande um "Oi" :D</h3>
+          <h3>Envie uma mensagem!</h3>
           <p className='contact_text'>
-          Tem algum projeto em mente e gostaria que eu participasse? <br/><br/> Mande uma mensagem ou um e-mail e tentarei responder o mais rápido possível! <br/><br/> contato.alain@gmail.com</p>
+          Tem algum projeto em mente e gostaria que eu participasse? <br/><br/> Entre em contato e vamos criar juntos! <br/><br/> contato.alain@gmail.com</p>
 
           <div className="social_icons">
             <Router>
               <div>
-                <a href="https://wa.me/5541995860145" target="_blank" rel="noreferrer">
+                <a href="https://wa.me/5541988960127" target="_blank" rel="noreferrer">
                   <BsWhatsapp />
                 </a>
               </div>
