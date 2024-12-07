@@ -29,6 +29,6 @@ export const contacts = [
   {
     id: 3,
     icon: <BsWhatsapp />,
-    infoText: "+55 41 9 9586-0145"
+    infoText: "+55 41 9 8896-0127"
   }
 ]
