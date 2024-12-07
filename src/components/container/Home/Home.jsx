@@ -36,7 +36,7 @@ const Home = () => {
         <>
           <h3 className='name'>Alai<span>n</span> Christia<span>n</span></h3>
           <span className='job'>Photographer & Digital Media Creator</span>
-          <span className='text'>Fotógrafo & Criador de Conteúdos Digitais. Amante de café e boas histórias. <br/>Me aventuro projetos independentes envolvendo Fotografia, Design e Social Media.</span>
+          <span className='text'>Fotógrafo & Criador de Mídias Digitais. <br/>Me aventuro projetos independentes envolvendo Fotografia, Design e Social Media.</span>
         </>
         
         <motion.a
