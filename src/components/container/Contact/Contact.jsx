@@ -27,7 +27,7 @@ const Contact = () => {
           className='contact_left_container'>
           <h3>Envie uma mensagem!</h3>
           <p className='contact_text'>
-          Tem algum projeto em mente e gostaria que eu participasse? <br/><br/> Entre em contato e vamos criar juntos! <br/><br/> contato.alain@gmail.com <br/><br/> 41 9 8896-0127</p>
+          Tem algum projeto em mente e gostaria que eu participasse? <br/> Entre em contato e vamos criar juntos! <br/><br/> contato.alain@gmail.com <br/><br/> 41 9 8896-0127</p>
 
           <div className="social_icons">
             <Router>
