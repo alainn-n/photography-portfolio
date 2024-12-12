@@ -6,7 +6,8 @@ import { navLinks } from '../../Data';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
-import { FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa';
+import { FaThreads, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 
 import logoicon from '../../assets/logoiconcrop.png'
 
@@ -75,15 +76,21 @@ const Navbar = () => {
                 </a>
               </div>
               <div>
-                <a href="https://twitter.com/alainn__n" target="_blank" rel="noreferrer">
-                  <FaTwitter />
-                </a>
-              </div>
-              <div>
                 <a href="https://www.tiktok.com/@alainn_n" target="_blank" rel="noreferrer">
                   <FaTiktok />
                 </a>
               </div>
+              <div>
+                <a href="https://www.threads.net/@alainn_n" target="_blank" rel="noreferrer">
+                  <FaThreads />
+                </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/alainn__n" target="_blank" rel="noreferrer">
+                  <FaXTwitter />
+                </a>
+              </div>
+
           </Router>
               </div>
               <div className="menu" >

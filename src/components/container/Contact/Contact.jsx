@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
-import { FaInstagram, FaTiktok, FaTwitter } from 'react-icons/fa';
+import { FaThreads, FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 
 
 const Contact = () => {
@@ -26,7 +27,7 @@ const Contact = () => {
           className='contact_left_container'>
           <h3>Envie uma mensagem!</h3>
           <p className='contact_text'>
-          Tem algum projeto em mente e gostaria que eu participasse? <br/><br/> Entre em contato e vamos criar juntos! <br/><br/> contato.alain@gmail.com</p>
+          Tem algum projeto em mente e gostaria que eu participasse? <br/> Entre em contato e vamos criar juntos! <br/><br/> contato.alain@gmail.com <br/><br/> 41 9 8896-0127</p>
 
           <div className="social_icons">
             <Router>
@@ -41,15 +42,21 @@ const Contact = () => {
                 </a>
               </div>
               <div>
-                <a href="https://twitter.com/alainn__n" target="_blank" rel="noreferrer">
-                  <FaTwitter />
-                </a>
-              </div>
-              <div>
                 <a href="https://www.tiktok.com/@alainn_n" target="_blank" rel="noreferrer">
                   <FaTiktok />
                 </a>
               </div>
+              <div>
+                <a href="https://www.threads.net/@alainn_n" target="_blank" rel="noreferrer">
+                  <FaThreads />
+                </a>
+              </div>
+              <div>
+                <a href="https://twitter.com/alainn__n" target="_blank" rel="noreferrer">
+                  <FaXTwitter />
+                </a>
+              </div>
+
           </Router>
           </div>
         </motion.div>
