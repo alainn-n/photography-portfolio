@@ -2,11 +2,9 @@ import React from 'react';
 import "./Contact.scss";
 import { motion } from 'framer-motion';
 
-import { BrowserRouter as Router } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
 import { FaThreads, FaXTwitter } from "react-icons/fa6";
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
-
 
 const Contact = () => {
   return (
@@ -30,7 +28,6 @@ const Contact = () => {
           Tem algum projeto em mente e gostaria que eu participasse? <br/> Entre em contato e vamos criar juntos! <br/><br/> contato.alain@gmail.com <br/><br/> 41 9 8896-0127</p>
 
           <div className="social_icons">
-            <Router>
               <div>
                 <a href="https://wa.me/5541988960127" target="_blank" rel="noreferrer">
                   <BsWhatsapp />
@@ -56,8 +53,6 @@ const Contact = () => {
                   <FaXTwitter />
                 </a>
               </div>
-
-          </Router>
           </div>
         </motion.div>
       </div>

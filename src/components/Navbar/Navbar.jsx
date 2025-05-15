@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { navLinks } from '../../Data';
 
-import { BrowserRouter as Router } from 'react-router-dom';
 import { BsWhatsapp } from 'react-icons/bs';
 import { FaThreads, FaXTwitter } from "react-icons/fa6";
 import { FaInstagram, FaTiktok } from 'react-icons/fa';
@@ -56,44 +55,39 @@ const Navbar = () => {
               <div className="logo">
                 <img src={logoicon} alt="" className='logoicon'/>
               </div>
-              <ul
-                      className="nav_links"
-                   >
+              <ul className="nav_links">
                   {navLinks.map((navlink,index) => {
                       return <li key={index}><a href={`#${navlink}`}>{navlink}</a></li>
                   })}
               </ul>
-              <div className="social_icons" >
-              <Router>
-              <div>
-                <a href="https://wa.me/5541988960127" target="_blank" rel="noreferrer">
-                  <BsWhatsapp />
-                </a>
+              <div className="social_icons">
+                <div>
+                  <a href="https://wa.me/5541988960127" target="_blank" rel="noreferrer">
+                    <BsWhatsapp />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.instagram.com/alainn_n/" target="_blank" rel="noreferrer">
+                    <FaInstagram />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.tiktok.com/@alainn_n" target="_blank" rel="noreferrer">
+                    <FaTiktok />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.threads.net/@alainn_n" target="_blank" rel="noreferrer">
+                    <FaThreads />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://twitter.com/alainn__n" target="_blank" rel="noreferrer">
+                    <FaXTwitter />
+                  </a>
+                </div>
               </div>
-              <div>
-                <a href="https://www.instagram.com/alainn_n/" target="_blank" rel="noreferrer">
-                  <FaInstagram />
-                </a>
-              </div>
-              <div>
-                <a href="https://www.tiktok.com/@alainn_n" target="_blank" rel="noreferrer">
-                  <FaTiktok />
-                </a>
-              </div>
-              <div>
-                <a href="https://www.threads.net/@alainn_n" target="_blank" rel="noreferrer">
-                  <FaThreads />
-                </a>
-              </div>
-              <div>
-                <a href="https://twitter.com/alainn__n" target="_blank" rel="noreferrer">
-                  <FaXTwitter />
-                </a>
-              </div>
-
-          </Router>
-              </div>
-              <div className="menu" >
+              <div className="menu">
                   <HiMenuAlt4 onClick={() => {setToggle(true)}}/>
               </div>
               <motion.div className="closeMenu"
@@ -111,7 +105,6 @@ const Navbar = () => {
                   {navLinks.map((navlink,index) => {
                       return <li
                           key={index}><a
-                         
                           href={`#${navlink}`} onClick={() => setToggle(false)}>{navlink}</a></li>
                   })}
               </motion.div>
