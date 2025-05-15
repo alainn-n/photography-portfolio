@@ -1,20 +1,17 @@
 import React from 'react'
 import "./App.css"
-import Contact from './components/container/Contact/Contact'
-import Footer from './components/container/Footer/Footer'
-import Home from './components/container/Home/Home'
-import Portfolio from './components/container/Portfolio/Portfolio'
-import Navbar from './components/Navbar/Navbar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import MainPage from './components/MainPage/MainPage'
+import NewPage from './components/NewPage/NewPage'
 
 const App = () => {
   return (
-    <div>
-        <Navbar />
-        <Home />
-        <Portfolio />
-        <Contact />
-        <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/nova-pagina" element={<NewPage />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
